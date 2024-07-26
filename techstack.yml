@@ -1,0 +1,168 @@
+repo_name: vladdou/netutils-linux
+report_id: 5b78623ae73dcf80b249c8586eae24d8
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-26T05:36:20+00:00'
+requested_by: strizhechenko
+provider: github
+branch: master
+detected_tools_count: 13
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/vladdou/netutils-linux
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/vladdou/netutils-linux
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/vladdou/netutils-linux/blob/master/setup.py
+  detection_source: setup.py
+  last_updated_by: Oleg Strizhechenko
+  last_updated_on: 2017-01-05 11:17:35.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/vladdou/netutils-linux/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Oleg Strizhechenko
+  last_updated_on: 2017-02-02 08:30:09.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/vladdou/netutils-linux/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Oleg Strizhechenko
+  last_updated_on: 2017-06-22 10:21:32.000000000 Z
+- name: PyYAML
+  website_url: http://pyyaml.org/wiki/PyYAML
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3730/no-img-open-source.png
+  detection_source_url: https://github.com/vladdou/netutils-linux/blob/master/setup.py
+  detection_source: setup.py
+  last_updated_by: Oleg Strizhechenko
+  last_updated_on: 2017-01-05 11:17:35.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/vladdou/netutils-linux
+  detection_source: Repo Metadata
+- name: PrettyTable
+  description: A simple Python library for easily displaying tabular data in a visually
+    appealing ASCII table format
+  package_url: https://pypi.org/project/PrettyTable
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20049/default_b0b684477aefb2da4c92a4bafd91d26e16511cd1.png
+  detection_source_url: https://github.com/vladdou/netutils-linux/blob/master/setup.py
+  detection_source: setup.py
+  last_updated_by: Oleg Strizhechenko
+  last_updated_on: 2017-06-05 10:19:19.000000000 Z
+- name: colorama
+  description: Cross-platform colored terminal text
+  package_url: https://pypi.org/project/colorama
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19845/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/vladdou/netutils-linux/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Oleg Strizhechenko
+  last_updated_on: 2017-06-05 10:19:19.000000000 Z
+- name: flake8
+  description: 'The modular source code checker: pep8, pyflakes and co'
+  package_url: https://pypi.org/project/flake8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19920/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
+  detection_source_url: https://github.com/vladdou/netutils-linux/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Oleg Strizhechenko
+  last_updated_on: 2017-06-17 14:30:06.000000000 Z
+- name: ipaddress
+  description: IPv4/IPv6 manipulation library
+  package_url: https://pypi.org/project/ipaddress
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19942/default_aacb529ceff756b62765790d8d6787a041d514ff.png
+  detection_source_url: https://github.com/vladdou/netutils-linux/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Oleg Strizhechenko
+  last_updated_on: 2017-06-01 10:09:19.000000000 Z
+- name: setuptools
+  description: Easily download
+  package_url: https://pypi.org/project/setuptools
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19831/default_65d1c12a133e1aa67ae96a1221c9c122ddf86c5f.png
+  detection_source_url: https://github.com/vladdou/netutils-linux/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Oleg Strizhechenko
+  last_updated_on: 2017-03-08 15:55:41.000000000 Z
+- name: six
+  description: Python 2 and 3 compatibility utilities
+  package_url: https://pypi.org/project/six
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/vladdou/netutils-linux/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Oleg Strizhechenko
+  last_updated_on: 2017-03-08 15:55:41.000000000 Z
